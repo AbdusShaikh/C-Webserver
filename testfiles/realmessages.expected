@@ -1,0 +1,25 @@
+HTTP/1.1 500 Internal Server Error
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+The server encountered an internal error or
+misconfiguration and was unable to complete your request.<p>
+</body></html>
+HTTP/1.1 200 OK
+
+Content-type: text/html
+
+<html><head><title>Hello World</title></head>
+<body>
+<h2>Simple CGI</h2>
+<p>QUERY_STRING = skip=Howard&third=Howard&second=Mathers&first=March</p>
+<ul>
+<li>skip = Howard</li>
+<li>third = Howard</li>
+<li>second = Mathers</li>
+<li>first = March</li>
+</ul>
+</body></html>
